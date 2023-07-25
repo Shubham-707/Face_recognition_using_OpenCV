@@ -1,7 +1,8 @@
+# Face_recognition_using_OpenCV
 1. Download Raw Images:
 Download raw images from Google using any method such as manual downloading, web scraping with Selenium, Chrome extensions, or third-party apps/vendors.
 
-2.Preprocessing and Face Detection:
+2. Preprocessing and Face Detection:
 Use OpenCV (cv2) to read the images and convert them to grayscale using cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).
 Utilize Haar cascades classifiers for detecting eyes in the images by analyzing lines and edge features with a moving window approach.
 Draw rectangles on the region of interest to identify faces and eyes using OpenCV.
